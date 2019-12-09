@@ -27,7 +27,6 @@
     "dev": "ts-node-dev --no-notify src/",
     "start": "npm run compile && node lib/",
     "mocha": "ts-mocha \"test/**/*.ts\" --recursive --exit",
-    "dev": "nodemon src/",
     "compile": "shx rm -rf lib/ && tsc"
   },
   "types": "lib/",
